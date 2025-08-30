@@ -16,11 +16,11 @@ console.log(msg);
 // Block Scope with let
 // • Write a loop for (let i = 0; i < 3; i++) { console.log(i) }.
 // • Try printing i outside the loop (should give error).
-/*for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
     console.log(i);
 }
 
-console.log(i);*/
+console.log(i); /* This will throw an error */
 
 // Block Scope with var
 // • Repeat the same loop but with var i = 0;.
