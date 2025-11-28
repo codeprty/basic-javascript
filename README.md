@@ -32,18 +32,18 @@ The exercises are written in JavaScript and can be run using **Node.js** in Visu
 1. **Check if Node.js is installed**
    Open the terminal in VS Code and run:
    node -v
-   • If you see a version number (e.g., v22.18.0), Node.js is already installed.
-   • If you get an error or nothing shows, you need to install Node.js.
+   - If you see a version number (e.g., v22.18.0), Node.js is already installed.
+   - If you get an error or nothing shows, you need to install Node.js.
 3. **Install Node.js (if not already installed)**
-   • Download and install Node.js from: [Node.js](https://nodejs.org/)
-   • After installation, run **node -v** again to confirm it is installed.
+   - Download and install Node.js from: [https://nodejs.org/](https://nodejs.org/)
+   - After installation, run **node -v** again to confirm it is installed.
 4. **Open the project in VS Code**
-   • Navigate to your project folder and open it in VS Code.
-   • Open a terminal inside VS Code (**Terminal > New Terminal**).
+   - Navigate to your project folder and open it in VS Code.
+   - Open a terminal inside VS Code (**Terminal > New Terminal**).
 5. **Run an exercise**
-   • In the terminal, run a specific JavaScript file with Node.js:
+   - In the terminal, run a specific JavaScript file with Node.js:
      node exercise_01.js
-   • Replace **exercise_01.js** with the file you want to run (e.g., **exercise_02.js**).
+   - Replace **exercise_01.js** with the file you want to run (e.g., **exercise_02.js**).
 6. View output
-   • The results of the exercise will be printed in the terminal.
-   • Modify the code or try different exercises to practice and see results in real-time.
+   - The results of the exercise will be printed in the terminal.
+   - Modify the code or try different exercises to practice and see results in real-time.
