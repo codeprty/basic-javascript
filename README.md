@@ -6,7 +6,6 @@ These exercises are designed and tested using **Visual Studio Code**, and can be
 
 The purpose of this project is to help beginners **practice essential JavaScript concepts** and **build a strong foundation** before moving on to more advanced topics.
 
----
 
 ## Project Structure
 
@@ -27,7 +26,6 @@ The project contains 12 JavaScript files, each covering a different topic:
 | exercise_11.js   | While Loop         | Same as for loop but using while loops.                                  |
 | exercise_12.js   | Do-While Loop      | Same as while loop, executes at least once.                              |
 
----
 
 ## How to Run the Exercises
 
@@ -35,7 +33,9 @@ The exercises are written in JavaScript and can be run using **Node.js** in Visu
 
 1. **Check if Node.js is installed**
    Open the terminal in VS Code and run:
+   ```bash
    node -v
+   ```
    - If you see a version number (e.g., v22.18.0), Node.js is already installed.
    - If you get an error or nothing shows, you need to install Node.js.
 3. **Install Node.js (if not already installed)**
@@ -46,7 +46,9 @@ The exercises are written in JavaScript and can be run using **Node.js** in Visu
    - Open a terminal inside VS Code (**Terminal > New Terminal**).
 5. **Run an exercise**
    - In the terminal, run a specific JavaScript file with Node.js:
+     ```bash
      node exercise_01.js
+     ```
    - Replace **exercise_01.js** with the file you want to run (e.g., **exercise_02.js**).
 6. View output
    - The results of the exercise will be printed in the terminal.
