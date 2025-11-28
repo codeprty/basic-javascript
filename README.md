@@ -6,6 +6,8 @@ These exercises are designed and tested using **Visual Studio Code**, and can be
 
 The purpose of this project is to help beginners **practice essential JavaScript concepts** and **build a strong foundation** before moving on to more advanced topics.
 
+---
+
 ## Project Structure
 
 The project contains 12 JavaScript files, each covering a different topic:
@@ -24,6 +26,8 @@ The project contains 12 JavaScript files, each covering a different topic:
 | exercise_10.js   | For Loop           | Counting, reversing, summing, iterating arrays/strings.                  |
 | exercise_11.js   | While Loop         | Same as for loop but using while loops.                                  |
 | exercise_12.js   | Do-While Loop      | Same as while loop, executes at least once.                              |
+
+---
 
 ## How to Run the Exercises
 
