@@ -11,7 +11,7 @@ The purpose of this project is to help beginners **practice essential JavaScript
 
 ## Project Structure
 
-The project contains 13 JavaScript files (and counting), each covering a different topic:
+The project contains 14 JavaScript files (and counting), each covering a different topic:
 
 | File Name        | Topic              | Description                                                              |
 |------------------|--------------------|--------------------------------------------------------------------------|
@@ -28,6 +28,7 @@ The project contains 13 JavaScript files (and counting), each covering a differe
 | exercise_11.js   | While Loop         | Same as for loop but using while loops.                                  |
 | exercise_12.js   | Do-While Loop      | Same as while loop, executes at least once.                              |
 | exercise_13.js   | Break              | Stop loops early using the break statement.                              |
+| exercise_14.js   | Continue           | Skip iterations in loops using continue.                                 |
 
 
 ## How to Run the Exercises
