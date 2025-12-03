@@ -52,7 +52,7 @@ let fruit = "pineapple";
 console.log(fruit.includes("apple"));
 
 /*
-Combination task
+Mixed - includes(), charAt(), at()
 Given message = "FrontEnd";
 1. Use .includes("End") to check if the string contains "End".
 2. Use .charAt(2) to get the third character.
@@ -60,11 +60,8 @@ Given message = "FrontEnd";
 Print all results.
 */
 let message = "FrontEnd";
-
 if (message.includes("End")) {
     console.log(message.includes("End"));
 }
-
 console.log(message.charAt(2));
-
 console.log(message.at(-2));
