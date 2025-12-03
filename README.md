@@ -11,7 +11,7 @@ The purpose of this project is to help beginners **practice essential JavaScript
 
 ## Project Structure
 
-The project contains 23 JavaScript files (and counting), each covering a different topic:
+The project contains 24 JavaScript files (and counting), each covering a different topic:
 
 | File Name        | Topic              | Description                                                                               |
 |------------------|--------------------|-------------------------------------------------------------------------------------------|
@@ -38,6 +38,7 @@ The project contains 23 JavaScript files (and counting), each covering a differe
 | exercise_21.js   | String Formatting  | Remove leading and trailing spaces using trim(), trimStart(), and trimEnd().              |
 | exercise_22.js   | String Formatting  | Convert strings to lowercase and uppercase using toLowerCase() and toUpperCase().         |
 | exercise_23.js   | String Padding     | Add padding to strings using padStart() and padEnd() methods.                             |
+| exercise_24.js   | Numbers            | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.   |
 
 
 ## How to Run the Exercises
