@@ -11,7 +11,7 @@ The goal of this project is to help beginners **practice essential JavaScript co
 
 ## Project Structure
 
-The project contains 31 JavaScript files, each covering a different topic:
+The project contains 32 JavaScript files, each covering a different topic:
 
 | File Name        | Topic             | Description                                                                                                          |
 |------------------|-------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -38,14 +38,15 @@ The project contains 31 JavaScript files, each covering a different topic:
 | exercise_21.js   | String Trim       | Remove leading and trailing spaces using `trim()`, `trimStart()`, and `trimEnd()`.                                   |
 | exercise_22.js   | String Case       | Convert strings to lowercase and uppercase using `toLowerCase()` and `toUpperCase()`.                                |
 | exercise_23.js   | String Padding    | Add padding to strings using `padStart()` and `padEnd()` methods.                                                    |
-| exercise_24.js   | Numbers           | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.                              |
-| exercise_25.js   | Number Check      | Check numeric values using `isFinite()`, `isInteger()`, and `isNaN()`.                                               |
-| exercise_26.js   | Number Parsing    | Extract and validate numbers using `isSafeInteger()`, `parseInt()`, and `parseFloat()`.                              |
-| exercise_27.js   | Number Formatting | Convert, round, and localize numbers with `toExponential()`, `toFixed()`, and `toLocaleString()`.                    |
-| exercise_28.js   | Number Conversion | Format numbers, convert to strings, and get values using `toPrecision()`, `toString()`, and `valueOf()`.             |
-| exercise_29.js   | Number Properties | Explore numeric constants and special values: `EPSILON`, safe integers, `MAX_VALUE`, `MIN_VALUE`, `NaN`, `Infinity`. |
-| exercise_30.js   | Functions         | Function basics including declaration, parameters, arguments, return, scope, and function calling.                   |
-| exercise_31.js   | Parameters        | Using default parameters, rest parameters, and the arguments object.                                                 |
+| exercise_24.js   | String Match      | Find characters, words, or patterns in strings using match() and matchAll().                                         |
+| exercise_25.js   | Numbers           | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.                              |
+| exercise_26.js   | Number Check      | Check numeric values using `isFinite()`, `isInteger()`, and `isNaN()`.                                               |
+| exercise_27.js   | Number Parsing    | Extract and validate numbers using `isSafeInteger()`, `parseInt()`, and `parseFloat()`.                              |
+| exercise_28.js   | Number Formatting | Convert, round, and localize numbers with `toExponential()`, `toFixed()`, and `toLocaleString()`.                    |
+| exercise_29.js   | Number Conversion | Format numbers, convert to strings, and get values using `toPrecision()`, `toString()`, and `valueOf()`.             |
+| exercise_30.js   | Number Properties | Explore numeric constants and special values: `EPSILON`, safe integers, `MAX_VALUE`, `MIN_VALUE`, `NaN`, `Infinity`. |
+| exercise_31.js   | Functions         | Function basics including declaration, parameters, arguments, return, scope, and function calling.                   |
+| exercise_32.js   | Parameters        | Using default parameters, rest parameters, and the arguments object.                                                 |
 
 
 ## Prerequisites
