@@ -11,34 +11,39 @@ The purpose of this project is to help beginners **practice essential JavaScript
 
 ## Project Structure
 
-The project contains 24 JavaScript files (and counting), each covering a different topic:
+The project contains 29 JavaScript files, each covering a different topic:
 
-| File Name        | Topic              | Description                                                                               |
-|------------------|--------------------|-------------------------------------------------------------------------------------------|
-| exercise_01.js   | Variables          | Declaring variables with let/const, swapping, basic arithmetic.                           |
-| exercise_02.js   | Operators          | Arithmetic, assignment, comparison, range checks.                                         |
-| exercise_03.js   | If Statement       | Single-branch conditions for numbers, age, strings.                                       |
-| exercise_04.js   | If-Else            | Two-branch conditions like even/odd, login, temperature.                                  |
-| exercise_05.js   | If-Else-If         | Multi-condition checks using else-if: grades, age groups, and more.                       |
-| exercise_06.js   | Switch             | Handling multiple options: days, months, traffic lights, letters.                         |
-| exercise_07.js   | Ternary Operator   | Concise conditions using "? :" for checks & decisions.                                    |
-| exercise_08.js   | Booleans           | Boolean values, logical operations, conversions.                                          |
-| exercise_09.js   | Logical Operators  | Combining conditions with &&, \|\|, ! for validation and access.                          |
-| exercise_10.js   | For Loop           | Counting, reversing, summing, iterating arrays/strings.                                   |
-| exercise_11.js   | While Loop         | Same as for loop but using while loops.                                                   |
-| exercise_12.js   | Do-While Loop      | Same as while loop, executes at least once.                                               |
-| exercise_13.js   | Break              | Stop loops early using the break statement.                                               |
-| exercise_14.js   | Continue           | Skip iterations in loops using continue.                                                  |
-| exercise_15.js   | Strings            | Working with quotes, escape characters, and template literals.                            |
-| exercise_16.js   | String Access      | Access characters and check substrings using .at(), .charAt(), and .includes().           |
-| exercise_17.js   | String Search      | Find positions of characters and words using .indexOf(), .lastIndexOf(), and .search().   |
-| exercise_18.js   | String Extraction  | Extract and split parts of strings using slice(), substring(), and split().               |
-| exercise_19.js   | String Modify      | Modify strings using replace(), replaceAll(), repeat(), and concat() methods.             |
-| exercise_20.js   | String Checking    | Check string beginnings and endings using startsWith() and endsWith().                    |
-| exercise_21.js   | String Formatting  | Remove leading and trailing spaces using trim(), trimStart(), and trimEnd().              |
-| exercise_22.js   | String Formatting  | Convert strings to lowercase and uppercase using toLowerCase() and toUpperCase().         |
-| exercise_23.js   | String Padding     | Add padding to strings using padStart() and padEnd() methods.                             |
-| exercise_24.js   | Numbers            | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.   |
+| File Name        | Topic              | Description                                                                                        |
+|------------------|--------------------|----------------------------------------------------------------------------------------------------|
+| exercise_01.js   | Variables          | Declaring variables with let/const, swapping, basic arithmetic.                                    |
+| exercise_02.js   | Operators          | Arithmetic, assignment, comparison, range checks.                                                  |
+| exercise_03.js   | If Statement       | Single-branch conditions for numbers, age, strings.                                                |
+| exercise_04.js   | If-Else            | Two-branch conditions like even/odd, login, temperature.                                           |
+| exercise_05.js   | If-Else-If         | Multi-condition checks using else-if: grades, age groups, and more.                                |
+| exercise_06.js   | Switch             | Handling multiple options: days, months, traffic lights, letters.                                  |
+| exercise_07.js   | Ternary Operator   | Concise conditions using "? :" for checks & decisions.                                             |
+| exercise_08.js   | Booleans           | Boolean values, logical operations, conversions.                                                   |
+| exercise_09.js   | Logical Operators  | Combining conditions with &&, \|\|, ! for validation and access.                                   |
+| exercise_10.js   | For Loop           | Counting, reversing, summing, iterating arrays/strings.                                            |
+| exercise_11.js   | While Loop         | Same as for loop but using while loops.                                                            |
+| exercise_12.js   | Do-While Loop      | Same as while loop, executes at least once.                                                        |
+| exercise_13.js   | Break              | Stop loops early using the break statement.                                                        |
+| exercise_14.js   | Continue           | Skip iterations in loops using continue.                                                           |
+| exercise_15.js   | Strings            | Working with quotes, escape characters, and template literals.                                     |
+| exercise_16.js   | String Access      | Access characters and check substrings using .at(), .charAt(), and .includes().                    |
+| exercise_17.js   | String Search      | Find positions of characters and words using .indexOf(), .lastIndexOf(), and .search().            |
+| exercise_18.js   | String Extraction  | Extract and split parts of strings using slice(), substring(), and split().                        |
+| exercise_19.js   | String Modify      | Modify strings using replace(), replaceAll(), repeat(), and concat() methods.                      |
+| exercise_20.js   | String Checking    | Check string beginnings and endings using startsWith() and endsWith().                             |
+| exercise_21.js   | String Formatting  | Remove leading and trailing spaces using trim(), trimStart(), and trimEnd().                       |
+| exercise_22.js   | String Formatting  | Convert strings to lowercase and uppercase using toLowerCase() and toUpperCase().                  |
+| exercise_23.js   | String Padding     | Add padding to strings using padStart() and padEnd() methods.                                      |
+| exercise_24.js   | Numbers            | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.            |
+| exercise_25.js   | Number Check       | Check numeric values using isFinite(), isInteger(), and isNaN().                                   |
+| exercise_26.js   | Number Parsing     | Extract and validate numbers using isSafeInteger(), parseInt(), and parseFloat().                  |
+| exercise_27.js   | Number Formatting  | Convert, round, and localize numbers with toExponential(), toFixed(), and toLocaleString().        |
+| exercise_28.js   | Number Conversion  | Format numbers, convert to strings, and get values using toPrecision(), toString(), and valueOf(). |
+| exercise_29.js   | Number Properties  | Explore numeric constants and special values: EPSILON, safe integers, MAX/MIN_VALUE, NaN, Infinity.|
 
 
 ## How to Run the Exercises
