@@ -1,85 +1,73 @@
-// Default parameter (basic)
-// Create a function greet with a default parameter name = "Guest".
-// Print "Hello, " + name.
-function greet(name = "Guest") {
-    return "Hello, " + name;
+// Function Intro
+// Create a function greet that prints "Hello World" to the console.
+function greet() {
+    return "Hello World";
 }
 console.log(greet());
 
-// Default number parameter
-// Create a function addFive with a default parameter num = 5.
-// Print num + 5.
-function addFive(num = 5) {
-    return num + 5;
+// Function Invocation
+// Create a function sayHi and call it to print "Hi there!".
+function sayHi() {
+    console.log("Hi there!");
 }
-console.log(addFive());
+sayHi();
 
-// Missing argument uses default
-// Create a function showCity with a default parameter city = "Unknown".
-// Call the function without passing any argument and print the city.
-function showCity(city = "Unknown") {
-    console.log(city);
+// Local Variables
+// Create a function showNumber with a local variable num = 5 and print it.
+function showNumber() {
+    let num = 5;
+    console.log(num);
 }
-showCity();
+showNumber();
 
-// Rest parameter info
-// Create a function showCount that uses a rest parameter ...values.
-// Print how many values were passed.
-function showCount(...values) {
-    return values.length;
+// Parameters
+// Create a function printName with a parameter name and print "Name: " followed by the name.
+function printName(name) {
+    console.log("Name: " + name);
 }
-console.log(showCount(1, 2, 3, 4));
 
-// Rest parameter array
-// Create a function listItems that uses ...items.
-// Print the array returned by items.
-function listItems(...items) {
-    return items;
+// Arguments
+// Call the printName function with your own name.
+printName("Anri Okita");
+
+// Multiple Parameters
+// Create a function sum with parameters a and b and print their sum.
+function sum(a, b) {
+    return a + b;
 }
-console.log(listItems("book", "pencil", "eraser"));
+console.log(sum(4, 6));
 
-// Rest parameter with strings
-// Create a function combineWords that uses ...words.
-// Print all words joined into one string.
-function combineWords(...words) {
-    return words.join("");
+// Return Value
+// Create a function double with a parameter n that returns n * 2. Call it and print the result.
+function double(n) {
+    console.log(n * 2);
 }
-console.log(combineWords("Java", "Script"));
+double(4);
 
-// Arguments count
-// Create a function countArgs.
-// Inside the function, print arguments.length.
-function countArgs() {
-    console.log(arguments.length);
+// Function as Variable
+// Create a function multiply that returns the product of two numbers. 
+// Assign it to a variable myFunc and call myFunc(2,3).
+function multiply(a, b) {
+    return a * b;
 }
-countArgs(1, 2, 3);
+let myFunc = multiply;
+console.log(myFunc(2, 3));
 
-// First argument
-// Create a function firstValue.
-// Inside the function, print arguments[0].
-function firstValue() {
-    console.log(arguments[0]);
-}
-firstValue("apple", "banana");
-
-// Loop through arguments
-// Create a function printAll.
-// Loop through all values in arguments and prints each one.
-function printAll() {
-    for (let i = 0; i < arguments.length; i++) {
-        console.log(arguments[i]);
+// Function Inside Function
+// Create a function outer that calls another function inner which prints "Inside inner function".
+function outer() {
+    function inner() {
+        console.log("Inside inner function");
     }
+    inner();
 }
-printAll("A", "B", "C");
+outer();
 
-/*
-Mixed parameter check
-Create a function test with a default parameter a = 10 and a rest parameter ...others.
-Print:
-• the value of a
-• the number of total arguments using arguments.length
-*/
-function test(a = 10, ...others) {
-    console.log(a, arguments.length);
+// Mixed Function Check
+// Create a function calculate that takes two numbers, adds them, and prints "Result: " followed by the sum.
+function calculate(a, b) {
+    let sum;
+    sum = a + b;
+    return "Result: " + sum;
 }
-test(1, 2, 3);
+console.log(calculate(6, 3));

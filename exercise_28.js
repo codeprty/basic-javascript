@@ -1,88 +1,81 @@
-// Basic precision
-// Given num = 123.456;
-// Use toPrecision(4) to format num with 4 significant digits.
-// Store it in prec1 and print the result.
-let num = 123.456;
-let prec1 = num.toPrecision(4);
-console.log(prec1);
+// toExponential with 2 decimals
+// Convert the number 12345 into exponential notation with 2 decimal places.
+// Store it in a variable named exp1 and print the value.
+let num = 12345;
+let exp1 = num.toExponential(2);
+console.log(exp1);
 
-// Small number precision
-// Given value = 0.00456789;
-// Use toPrecision(3) and store the result in prec2.
-// Print the value.
-let value = 0.00456789;
-let prec2 = value.toPrecision(3);
-console.log(prec2);
+// toExponential with 3 decimals
+// Convert 0.00567 into exponential format with 3 decimal places.
+// Store it in exp2 and print the value.
+num = 0.00567;
+let exp2 = num.toExponential(3);
+console.log(exp2);
 
-// Large number precision
-// Given bigNum = 987654321;
-// Use toPrecision(6) to format it and store in prec3.
-// Print the value.
-let bigNum = 987654321;
-let prec3 = bigNum.toPrecision(6);
-console.log(prec3);
+// toExponential with 5 decimals
+// Given num = 987654321;
+// Convert num to exponential form with 5 decimal places.
+// Store it in exp3 and print the value.
+num = 987654321;
+let exp3 = num.toExponential(5);
+console.log(exp3);
 
-// Convert number to string
-// Given num = 255;
-// Convert it to a string using toString() and store in str1.
-// Print the result.
-num = 255;
-let str1 = num.toString();
-console.log(str1);
+// Round to 2 decimal places
+// Round the number 12.34567 to 2 decimals using toFixed().
+// Store it in fixed1 and print the value.
+num = 12.34567;
+let fixed1 = num.toFixed(2);
+console.log(fixed1);
 
-// Convert decimal number to string
-// Given pi = 3.14159;
-// Convert it to a string using toString() and store in str2.
-// Print the result.
-let pi = 3.14159;
-let str2 = pi.toString();
-console.log(str2);
+// Convert to 4 decimal places
+// Convert 9.1 to a string with 4 decimals.
+// Store it in fixed2 and print the value.
+num = 9.1;
+let fixed2 = num.toFixed(4);
+console.log(fixed2);
 
-// Convert number to binary string
-// Given n = 10;
-// Use toString(2) to get the binary representation.
-// Store in str3 and print the result.
-let n = 10;
-let str3 = n.toString(2);
-console.log(str3);
+// Round to whole number (0 decimals)
+// Given price = 199.999;
+// Use toFixed(0) to round it to a whole number.
+// Store it in fixed3 and print the value.
+let price = 199.999;
+let fixed3 = price.toFixed(0);
+console.log(fixed3);
 
-// Basic valueOf()
-// Given num = 100;
-// Use valueOf() to get the primitive value and store in val1.
-// Print the result.
-num = 100;
-let val1 = num.valueOf();
-console.log(val1);
+// Local format (default locale)
+// Convert 1234567 to a localized string.
+// Store it in local1 and print the value.
+num = 1234567;
+let local1 = num.toLocaleString();
+console.log(local1);
 
-// Decimal valueOf()
-// Given decimal = 45.67;
-// Use valueOf() and store in val2.
-// Print the result.
-let decimal = 45.67;
-let val2 = decimal.valueOf();
-console.log(val2);
+// US Currency format
+// Format the number 98765.4321 to USD currency using:
+// style: "currency" and currency: "USD"
+// Store it in local2 and print the value.
+num = 98765.4321;
+let local2 = num.toLocaleString("en-US", {style:"currency", currency:"USD"});
+console.log(local2);
 
-// BigInt valueOf()
-// Given big = 9007199254740991n;
-// Use valueOf() and store in val3.
-// Print the result.
-let big = 9007199254740991n;
-let val3 = big.valueOf();
-console.log(val3);
+// German locale number formatting
+// Convert 1000000 using the German locale "de-DE".
+// Store it in local3 and print the value.
+num = 1000000;
+let local3 = num.toLocaleString("de-DE");
+console.log(local3);
 
 /*
-Mixed - toPrecision(), toString(), valueOf()
-Given n = 12345.6789;
-Do the following:
-1. Format n using toPrecision(5) → precMix
-2. Convert n to string → strMix
-3. Use valueOf() to get the primitive value → valMix
-Print all three results.
+Mixed - toExponential(), toFixed(), toLocaleString()
+Given n = 54321.98765;
+Do all of the following:
+1. Convert n to exponential form with 3 decimals → expMix
+2. Convert n to fixed form with 1 decimal → fixedMix
+3. Convert n to localized string using Japanese locale "ja-JP" → localMix
 */
-n = 12345.6789;
-let precMix = n.toPrecision(5);
-let strMix = n.toString();
-let valMix = n.valueOf();
-console.log(precMix);
-console.log(strMix);
-console.log(valMix);
+let n = 54321.98765;
+let expMix = n.toExponential(3);
+let fixedMix = n.toFixed(1);
+let localMix = n.toLocaleString("ja-JP");
+console.log(expMix);
+console.log(fixedMix);
+console.log(localMix);

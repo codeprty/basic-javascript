@@ -1,69 +1,68 @@
-// Basic safe integer
-// Given num = 500;
-// Use Number.isSafeInteger() to check if num is a safe integer. Print the result.
-let num = 500;
-console.log(Number.isSafeInteger(num));
+// Basic finite number
+// Given x = 50;
+// Use Number.isFinite() to check if x is a finite number. Print the result.
+let x = 50;
+console.log(Number.isFinite(x));
 
-// Unsafe integer
-// Given big = 9007199254740993;
-// Check if it's a safe integer. Print the result.
-// (Hint: this number is larger than JavaScript’s safe range.)
-let big = 9007199254740993;
-console.log(Number.isSafeInteger(big));
+// Infinity check
+// Given value = Infinity;
+// Use Number.isFinite() to check if the value is finite. Print the result.
+let value = Infinity;
+console.log(Number.isFinite(value));
 
-// String integer
-// Given value = "123";
-// Check if it's a safe integer using isSafeInteger. Print the result.
-let value = "123";
-console.log(Number.isSafeInteger(value));
+// String number check
+// Given score = "100";
+// Check whether it's finite using Number.isFinite() and print the result.
+// (Hint: it returns false because the value is not a number type)
+let score = "100";
+console.log(Number.isFinite(score));
 
-// Basic decimal extraction
-// GIven str = "3.14";
-// Use parseFloat() to convert it into a number. Print the result.
-let str = "3.14";
-console.log(Number.parseFloat(str));
+// Check integer
+// Given num = 25;
+// Use Number.isInteger() to check if num is an integer. Print the result.
+let num = 25;
+console.log(Number.isInteger(num));
 
-// Extract float from text
-// Given text = "Price: 45.67 USD";
-// Use parseFloat() and print the result.
-let text = "Price: 45.67 USD";
-console.log(Number.parseFloat(text));
+// Decimal check
+// Given price = 9.99;
+// Check whether price is an integer using Number.isInteger() and print the result.
+let price = 9.99;
+console.log(Number.isInteger(price));
 
-// Leading integer + decimals
-// Given data = "100.99abc";
-// Use parseFloat() and print the result.
-// (Hint: parseFloat stops at the first invalid character.)
-let data = "100.99abc";
-console.log(Number.parseFloat(data));
+// Integer-like string
+// Given age = "30";
+// Check if it is an integer using Number.isInteger().
+// Print the result. (Hint: it's false — string is not a number)
+let age = "30";
+console.log(Number.isInteger(age));
 
-// Basic integer extraction
-// Given str = "42";
-// Use parseInt() to convert it to a number. Print the result.
-str = "42";
-console.log(Number.parseInt(str));
+// NaN from invalid math
+// Compute: let result = "abc" - 10;
+// Use Number.isNaN() to check if result is NaN. Print the result.
+let result = "abc" - 10;
+console.log(Number.isNaN(result));
 
-// Integer from mixed string
-// Given value = "55px";
-// Use parseInt() and print the result.
-value = "55px";
-console.log(Number.parseInt(value));
+// Valid number check
+// Given height = 180;
+// Check with Number.isNaN() and print the result.
+let height = 180;
+console.log(Number.isNaN(height));
 
-// parseInt with second argument (radix)
-// Given binary = "1010"; (binary for 10)
-// Use parseInt(binary, 2) to convert it to a decimal number.
+// NaN from direct value
+// Check this value: Number.isNaN(NaN)
 // Print the result.
-let binary = "1010";
-console.log(Number.parseInt(binary, 2));
+console.log(Number.isNaN(NaN));
 
 /*
-Mixed - isSafeInteger, parseFloat, parseInt
-Given a = "256.75px";
-Do the following:
-1. Use parseInt(a) and print the result.
-2. Use parseFloat(a) and print the result.
-3. Check if parseInt(a) is a safe integer using isSafeInteger().
+Mixed — isFinite(), isInteger(), isNaN()
+Given a = "200";
+Check:
+1. Is it finite?
+2. Is it an integer?
+3. Is it NaN?
+Print all results.
 */
-let a = "256.75px";
-console.log(Number.parseInt(a));
-console.log(Number.parseFloat(a));
-console.log(Number.isSafeInteger(parseInt(a)));
+let a = "200";
+console.log(Number.isFinite(a));
+console.log(Number.isInteger(a));
+console.log(Number.isNaN(a));

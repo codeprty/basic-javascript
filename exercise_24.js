@@ -1,75 +1,71 @@
-/*
-Number types - integers and decimals
-Create two variables:
-• a as an integer 10
-• b as a decimal 3.14
-Print both variables and their sum.
-*/
-let a = 10;
-let b = 3.14;
-console.log(a + b);
+// Match a word
+// Given text = "I love JavaScript"
+// Use match() to find "Java" in text.
+// Print only the matched string, not the full match object.
+let text = "I love JavaScript";
+console.log(text.match(/Java/g));
 
-/*
-Large and small numbers (scientific/exponent notation)
-Create two variables:
-• big as 1.23e6
-• small as 4.56e-3
-Print both variables.
-*/
-let big = 1.23e6;
-let small = 4.56e-3;
-console.log(big);
-console.log(small);
+// Match a digit
+// Given text = "My number is 7"
+// Use match() with regex to find the digit.
+// Print the result as an array of matches.
+text = "My number is 7";
+console.log(text.match(/\d/));
 
-// Floating point arithmetic
-// Add 0.1 + 0.2 and print the result.
-// Check if it equals 0.3 using ==.
-let floatSum = 0.1 + 0.2;
-console.log(floatSum); // Output: 0.30000000000000004
-console.log(floatSum == 0.3); // Output: false
+// Match multiple letters
+// Given text = "Hello"
+// Use match() to find all "l" letters.
+// Print the array of matched letters.
+text = "Hello";
+console.log(text.match(/l/g));
 
-// Operator precedence
-// Evaluate and print the result of:
-// let result = 10 + 5 * 2 - 8 / 4;
-let result = 10 + (5 * 2) - (8 / 4);
-console.log(result);
+// Match case-insensitive
+// Given text = "JavaScript javascript JAVASCRIPT"
+// Use match() with regex to find all "javascript" ignoring case.
+// Print the array of matched strings.
+text = "JavaScript javascript JAVASCRIPT";
+console.log(text.match(/javascript/gi));
 
-// BigInt
-// Create a BigInt variable bigNumber with value 9007199254740991n.
-// Add 1n to it and print the result.
-let bigNumber = 9007199254740991n;
-console.log(bigNumber + 1n);
+// Match all vowels
+// Given text = "Hello World"
+// Use matchAll() to find all vowels (a, e, i, o, u).
+// Convert to array using spread operator and print the matches.
+text = "Hello World";
+let result = text.matchAll(/[aeiou]/gi);
+console.log([...result]);
 
-// Number() conversion
-// Convert the string "123" to a number using the Number() function and print it.
-let str = "123";
-console.log(Number(str));
+// Match all letter 'a'
+// Given text = "banana"
+// Use matchAll() to find all letter 'a'.
+// Convert to array using Array.from() and print the matches.
+text = "banana";
+result = text.matchAll(/a/g);
+console.log(Array.from(result));
 
-// Numeric strings
-// Add "100" + "50" as strings and print the result.
-// Then convert them to numbers and print the sum.
-console.log("100" + "50"); // Output: 10050
-console.log(Number("100") + Number("50")); // Output: 150
+// Match all words starting with 'c'
+// Given text = "cat car dog cow"
+// Use matchAll() to find all words starting with 'c'.
+// Convert to array first, then use a for loop to print each matched word only.
+text = "cat car dog cow";
+result = Array.from(text.matchAll(/c\w+/g));
+for (let i = 0; i < result.length; i++) {
+  console.log(result[i][0]); // Print only the matched word
+}
 
-/*
-Boolean comparisons with numbers
-Check and print the result of:
-• true == 1
-• false == 0
-• true + 2
-*/
-console.log(true == 1); // Output : true
-console.log(false == 0); // Output: true
-console.log(true + 2); // Output: 3
+// Match all digits
+// Given text = "I have 2 apples and 5 oranges"
+// Use matchAll() to find all digits.
+// Convert to array first, then use a for loop to print each digit only.
+text = "I have 2 apples and 5 oranges";
+result = Array.from(text.matchAll(/\d/g));
+for (let i = 0; i < result.length; i++) {
+  console.log(result[i][0]); // Print only the digit
+}
 
-// NaN — arithmetic with non-numeric string
-// Try adding "abc" + 5 and print the result.
-// Then subtract 5 from "abc" and print the result.
-console.log("abc" + "5"); 
-console.log("abc" - 5);
-
-// NaN — arithmetic with numeric string
-// Add "10" - 5 and "10" + 5 and print both results.
-// Explain why they are different.
-console.log("10" - 5); // "10" - 5 converts the string to number → 5
-console.log("10" + 5); // "10" + 5 concatenates → "105"
+// Match all uppercase letters
+// Given text = "Hello World ABC"
+// Use matchAll() to find all uppercase letters.
+// Convert to array using spread operator and print the matches.
+text = "Hello World ABC";
+result = text.matchAll(/[A-Z]/g);
+console.log([...result]);
