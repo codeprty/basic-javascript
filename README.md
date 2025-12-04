@@ -38,7 +38,7 @@ The project contains 32 JavaScript files, each covering a different topic:
 | exercise_21.js   | String Trim       | Remove leading and trailing spaces using `trim()`, `trimStart()`, and `trimEnd()`.                                   |
 | exercise_22.js   | String Case       | Convert strings to lowercase and uppercase using `toLowerCase()` and `toUpperCase()`.                                |
 | exercise_23.js   | String Padding    | Add padding to strings using `padStart()` and `padEnd()` methods.                                                    |
-| exercise_24.js   | String Match      | Find characters, words, or patterns in strings using match() and matchAll().                                         |
+| exercise_24.js   | String Match      | Find characters, words, or patterns in strings using `match()` and `matchAll()`.                                         |
 | exercise_25.js   | Numbers           | Work with numbers, conversions, BigInt, floating-point behavior, and numeric operators.                              |
 | exercise_26.js   | Number Check      | Check numeric values using `isFinite()`, `isInteger()`, and `isNaN()`.                                               |
 | exercise_27.js   | Number Parsing    | Extract and validate numbers using `isSafeInteger()`, `parseInt()`, and `parseFloat()`.                              |
